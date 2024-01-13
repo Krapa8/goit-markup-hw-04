@@ -28,6 +28,7 @@ max-width: 1158px;
 margin: 0 auto;
 padding: 0 15px;
 
+
   }
 
 
@@ -113,7 +114,12 @@ padding: 0;
   /*sections*section 1*/
   .section_type {
       background-color:#2e2f42;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peoople_office.jpg);
       padding: 188px 0;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      
   }
 
   img {
@@ -239,6 +245,13 @@ padding: 0;
         line-height: 1.5;
         letter-spacing: 0.02em;
   }
+  .soc-icons {
+    fill: #4D5AE5;
+    stroke:#F4F4FD;
+    border-radius: 50%;
+    
+
+  }
 
   /*4 section*/
   .section_four {
@@ -302,6 +315,18 @@ padding: 0;
         line-height: 1.5;
         letter-spacing: 0.02em;
         max-width: 264px;
+  }
+  .title_social_networks {
+    color:#fff;
+    font-family: Roboto, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0.04em;
+      gap: 120px;
+
+
   }
 
   h1, 
