@@ -430,6 +430,7 @@ margin-right: 120px;
     gap: 16px;
     height: 40px;
     width: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
   }
@@ -447,8 +448,8 @@ margin-right: 120px;
     justify-content: center;
   }
   
-  .link_3:hover,
-  .link_3:focus {
+  .link_f:hover,
+  .link_f:focus {
     background-color: #31d0aa;
 
   h1, 
