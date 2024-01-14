@@ -285,7 +285,8 @@ justify-content: center;
   .icons-list {
     width: 40px;
     height: 40px;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
   }
   .photo {
     background: url(<path-to-image>), lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
@@ -312,7 +313,7 @@ justify-content: center;
   .section_four {
     padding-top: 120px;
         padding-bottom: 120px;
-        
+
   }
   .team-text {
     margin-bottom: 72px;
@@ -322,16 +323,14 @@ justify-content: center;
       flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    
   }
   .apps-description {
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
-  transform: translateY(0%);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
   .apps-description :hover {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   transform: translateY(0%);
   }
   .image_in_four {
@@ -346,6 +345,8 @@ justify-content: center;
   .stylish {
    position: absolute;
    top: 0;
+  padding: 40px 32px;
+  background-color: #4d5ae5;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
